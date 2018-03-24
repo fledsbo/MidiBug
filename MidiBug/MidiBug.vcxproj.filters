@@ -16,6 +16,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="MidiBug.ino" />
+    <None Include="MidiProc.cpp" />
+    <None Include="UserInterface.cpp" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.MidiBug.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MidiProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
